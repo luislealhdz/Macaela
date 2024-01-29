@@ -35,6 +35,9 @@ const createCardProduct = (product) => {
     card.appendChild(header);
     card.appendChild(footer);
 
+    header.classList.add("card-product__header");
+    imageProduct.classList.add("card-product__image");
+
     products.appendChild(card);
 };
 
